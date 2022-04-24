@@ -25,7 +25,7 @@ In a browser, go to https://developer.microsoft.com/microsoft-365/dev-program an
 
 ### Install Node.js
 
-Go to https://nodejs.org/. There will be a link to the LTS (long-term support) version for your operating system, but instead it's recommended to go to the "other downloads" page. From there, find the Previous Releases link, and on the following page, type "Node.js 14" into the search box to find the latest v14 LTS release (probably 14.19). On the downloads page, choose the file for your operating system, e.g. node-v14.19.1-x64.msi for Windows.
+Go to https://nodejs.org/. There will be a link to the LTS (long-term support) version for your operating system, but at the time of writing only versions 10, 12 and 14 of node.js are supported. Instead of the LTS version, go to the "other downloads" page. From there, find the Previous Releases link, and on the following page, type "Node.js 14" into the search box to find the *latest* v14 LTS release (probably 14.19). On the downloads page, choose the file for your operating system, e.g. node-v14.19.1-x64.msi for Windows.
 
 ### Install Visual Studio Code
 
