@@ -1,0 +1,23 @@
+{
+    "appName": "Products",
+    "projectId": "2e6f35f4-4bde-479b-abb5-6c432cedcbc6",
+    "version": "2.1.0",
+    "isFromSample": false,
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "SPFx",
+        "azureResources": [],
+        "capabilities": [
+            "Tab"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-spfx",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio",
+            "fx-resource-cicd",
+            "fx-resource-api-connector"
+        ]
+    },
+    "programmingLanguage": "typescript"
+}

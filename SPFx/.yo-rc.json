@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "Products",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Products",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "products",
+    "libraryId": "f14d1d14-8194-473b-94b3-c4aea60edbe0",
+    "packageManager": "npm",
+    "solutionShortDescription": "Products description"
+  }
+}
