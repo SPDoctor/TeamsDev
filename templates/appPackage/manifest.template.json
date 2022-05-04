@@ -27,7 +27,7 @@
         {
             "entityId": "78ec03cb-1c94-4ac6-a087-c1792cf801f2",
             "name": "Products",
-            "contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=78ec03cb-1c94-4ac6-a087-c1792cf801f2%26forceLocale={locale}",
+            "contentUrl": "{{^config.isLocalDebug}}https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=78ec03cb-1c94-4ac6-a087-c1792cf801f2%26forceLocale={locale}{{/config.isLocalDebug}}{{#config.isLocalDebug}}https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/TeamsWorkBench.aspx%3FcomponentId=78ec03cb-1c94-4ac6-a087-c1792cf801f2%26teams%26personal%26forceLocale={locale}%26loadSPFX%3Dtrue%26debugManifestsFile%3Dhttps%3A%2F%2Flocalhost%3A4321%2Ftemp%2Fmanifests.js{{/config.isLocalDebug}}",
             "websiteUrl": "https://products.office.com/en-us/sharepoint/collaboration",
             "scopes": [
                 "personal"
@@ -36,7 +36,7 @@
     ],
     "configurableTabs": [
         {
-            "configurationUrl": "https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=78ec03cb-1c94-4ac6-a087-c1792cf801f2%26forceLocale={locale}",
+            "configurationUrl": "{{^config.isLocalDebug}}https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=78ec03cb-1c94-4ac6-a087-c1792cf801f2%26forceLocale={locale}{{/config.isLocalDebug}}{{#config.isLocalDebug}}https://{teamSiteDomain}{teamSitePath}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/TeamsWorkBench.aspx%3FcomponentId=78ec03cb-1c94-4ac6-a087-c1792cf801f2%26openPropertyPane=true%26teams%26forceLocale={locale}%26loadSPFX%3Dtrue%26debugManifestsFile%3Dhttps%3A%2F%2Flocalhost%3A4321%2Ftemp%2Fmanifests.js{{/config.isLocalDebug}}",
             "canUpdateConfiguration": true,
             "scopes": [
                 "team"

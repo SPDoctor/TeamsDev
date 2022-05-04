@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+.fx/configs/config.local.json
+.fx/states/state.local.json
+.backup

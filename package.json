@@ -9,5 +9,8 @@
     "devDependencies": {
         "@microsoft/teamsfx-cli": "0.*"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "@microsoft/rush-stack-compiler-4.2": "^0.1.2"
+    }
 }

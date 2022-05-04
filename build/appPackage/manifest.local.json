@@ -2,7 +2,7 @@
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
     "manifestVersion": "1.11",
     "packageName": "Products",
-    "id": "d02f3fb5-75db-4698-a35e-20a02e773b98",
+    "id": "3ed73fc5-5d9e-4a8c-9197-f6c96a4e973b",
     "version": "1.0.0",
     "developer": {
         "name": "SPFx + Teams Dev",
@@ -11,11 +11,12 @@
         "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
     },
     "name": {
-        "short": "Products-local-debug"
+        "short": "Products-local-debug",
+        "full": "Full name for Products-local-debug"
     },
     "description": {
-        "short": "Products-local-debug",
-        "full": "Products-local-debug"
+        "short": "Products",
+        "full": "Products"
     },
     "icons": {
         "outline": "resources/outline.png",

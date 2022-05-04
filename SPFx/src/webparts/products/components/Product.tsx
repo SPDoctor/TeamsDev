@@ -14,8 +14,8 @@ export default function Product({ product }) {
     <div className={styles.column}>
       <h2>{product.Title}</h2>
       { open
-          ? <img width="200" height="140" src={product.ImageUrl}></img>
-          : <h1 onClick={click}>{product.ID}</h1>
+          ? <img width="200" height="140" src={product.ImageUrl.Url}></img>
+          : <h1 onClick={click}>{product.Code}</h1>
       }
     </div>
   );
